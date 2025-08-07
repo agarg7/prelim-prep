@@ -19,7 +19,7 @@ The planned schedule is as follows:
 
 A few notes on the format and some general tips(we will talk about this more in the sessions):
 
-- The prelim generally is structured with simpler data visualization/testing problems at the start and then more complicated modling question after.
+- The prelim generally is structured with simpler data visualization/testing problems at the start and then more complicated modling questions after.
   - Don't over complicate your answers/model choices, especially on early questions. I generally suggest that you to choose easy/standard models for your answers. The goal of the prelims is to find a reasonable solution, not the best solution. This typically helps with the model diagnostics and explanations. If you are confident about your approaches feel free to complicate but starting simpler isn't a bad idea.
 - If you are asked to find statistical issues in a paper or some analysis, investigate how they have performed their tests. Most of the times, you will see a problem in form of multiple testing, a test that is not interpretable, or some clearly un-modeled or mis-modeled effects.
 - The oral component of the prelim is very impoirtant. The usual questions are in the form of 'why did you do this?', 'What else you can do here?' If you have pointed out some issues, you might be asked to either elaborate or asked for a possible solution for them. Often, they also ask to explain any observable pattern in the data (plot). Keeping that in mind, it might be helpful to go through your solution once before the oral exam, so that you know your own solution well.
