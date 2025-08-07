@@ -1,6 +1,6 @@
 # prelim-prep
 
-Hi everyone! I will be using this to upload the practice problem sets(taken from prior prelims, with some slightly adapted by Rohan Hore to summarize the paper and/or give more potential question.)
+Hi everyone! I will be using this to upload the practice problem sets(taken from prior prelims, with some slightly adapted by Rohan Hore to summarize the paper and/or give more potential questions.)
 
 I highly recommend working through the problems before we go over them together, or at least reading through them and thinking about how you would approach each problem even if you don't write anything out.
 
