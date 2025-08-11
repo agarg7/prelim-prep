@@ -8,14 +8,14 @@ The planned schedule is as follows:
 
 | Date Time    | Location         | Problem Set                      |
 | ------------ | ---------------- | -------------------------------- |
-| Tu 8/12 3pm  | Jones (room TBD) | Applied Analysis 2 (2020 prelim) |
-| Th 8/14 3pm  | Jones (room TBD) | Applied Analysis 3               |
+| Tu 8/12 3pm  | Jones 226        | Applied Analysis 2 (2020 prelim) |
+| Th 8/14 3pm  | Jones 226        | Applied Analysis 3               |
 | Tu 8/19 3pm  | TBD              | Applied Analysis 4               |
 | Th 8/21 3pm  | TBD              | Applied Analysis 5               |
 | Tu 8/26 3pm  | TBD              | Applied Analysis 6 (2021 prelim) |
 | Th  8/28 3pm | TBD              | 2022 prelim                      |
-| Tu  9/2 3pm  | TBD              | 2023 prelim                      |
-| Th  9/4 3pm  | TBD              | 2024 prelim                      |
+| Tu  9/2 3pm  | Jones 226        | 2023 prelim                      |
+| Th  9/4 3pm  | Jones 226        | 2024 prelim                      |
 
 A few notes on the format and some general tips(we will talk about this more in the sessions):
 
