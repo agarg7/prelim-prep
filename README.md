@@ -24,3 +24,21 @@ A few notes on the format and some general tips(we will talk about this more in 
 - If you are asked to find statistical issues in a paper or some analysis, investigate how they have performed their tests. Most of the times, you will see a problem in form of multiple testing, a test that is not interpretable, or some clearly un-modeled or mis-modeled effects.
 - The oral component of the prelim is very impoirtant. The usual questions are in the form of 'why did you do this?', 'What else you can do here?' If you have pointed out some issues, you might be asked to either elaborate or asked for a possible solution for them. Often, they also ask to explain any observable pattern in the data (plot). Keeping that in mind, it might be helpful to go through your solution once before the oral exam, so that you know your own solution well.
 - It is often important to rely on intuition and standard patterns/good practices. For example, if we see a response of count data, the first thought we should have is: there might be skewness, and a log transform could help! Some other examples include respecting ordinal behavior of response, questioning linearity of a covariate (for e.g., time).
+
+
+
+More Detailed tips/notes:
+
+- Plotting
+  - Be careful that histogram/density smoothing doesn't lie about patterns 
+- Modeling
+  - Choose model(LM/GLM and why?)
+    - Sometimes it's stated what to use, sometimes it's open for you to decide 
+    - Often the type of data motivates the model (e.g. Count data ->(poisson/NB/ZIP)
+  - Fit the model & assess fit
+    - Feature selection 
+    - Diagnositic plots
+      - Residual plot (Over dispersion/hetroskeasticity)
+      - Outliers?
+  - Interpret p-values & appropriate model comparison tests
+    - Comment on reliability of results based on model fit and assumptions
