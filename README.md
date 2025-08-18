@@ -9,13 +9,14 @@ The planned schedule is as follows:
 | Date Time    | Location  | Problem Set                      |
 | ------------ | --------- | -------------------------------- |
 | Tu 8/12 3pm  | Jones 226 | Applied Analysis 2 (2020 prelim) |
-| Th 8/14 3pm  | Jones 226 | Applied Analysis 3               |
-| Tu 8/19 3pm  | ZOOM      | Applied Analysis 4               |
-| Th 8/21 3pm  | ZOOM      | Applied Analysis 5               |
-| Tu 8/26 3pm  | ZOOM      | Applied Analysis 6 (2021 prelim) |
-| Th  8/28 3pm | ZOOM      | 2022 prelim                      |
+| Th 8/14 3pm  | Jones 226 | Applied Analysis 3 (2015 prelim) |
+| Tu 8/19 3pm  | [Zoom](https://uchicago.zoom.us/j/4085130854?pwd=VXJOdFltVnMvWDFPYmczbFUrSlRqdz09)      | Applied Analysis 4 (2019 prelim) |
+| Th 8/21 3pm  | [Zoom](https://uchicago.zoom.us/j/4085130854?pwd=VXJOdFltVnMvWDFPYmczbFUrSlRqdz09)      | Applied Analysis 5 (2016 prelim) |
+| Tu 8/26 3pm  | [Zoom](https://uchicago.zoom.us/j/4085130854?pwd=VXJOdFltVnMvWDFPYmczbFUrSlRqdz09)      | Applied Analysis 6 (2021 prelim) |
+| Th  8/28 3pm | [Zoom](https://uchicago.zoom.us/j/4085130854?pwd=VXJOdFltVnMvWDFPYmczbFUrSlRqdz09)      | 2022 prelim                      |
 | Tu  9/2 3pm  | Jones 226 | 2023 prelim                      |
 | Th  9/4 3pm  | Jones 226 | 2024 prelim                      |
+| --           | --        | extra (2017 prelim)              |
 
 A few notes on the format and some general tips(we will talk about this more in the sessions):
 
