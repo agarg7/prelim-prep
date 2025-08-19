@@ -1,15 +1,19 @@
 We know $Y$ is a guassian:
+
 $$
 Y \sim N (X \beta, \Sigma)
 $$
 
 We can compute the mean and variance of the residual:
+
 $$
 E = (I - X(X'WX)^{-1}X'W)XB = XB -XB  =0 \\
 V = Q\Sigma Q^T\\
 R \sim M(0, Q\Sigma Q^T)
 $$
+
 We can simplify $Q\Sigma Q = Q\Sigma$ (what i was missing in my explanation live) using the the fact $\Sigma = W^{-1}$:
+
 $$
 \begin{align*}
 Q\Sigma Q^T &= (I - X(X'WX)^{-1}X'W) \Sigma Q^T\\
