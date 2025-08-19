@@ -18,10 +18,7 @@ $$
 Q\Sigma Q^T = (I - X(X'WX)^{-1}X'W) \Sigma Q^T\\
 = (\Sigma - X(X'WX)^{-1}X') Q^T\\
 = (\Sigma - X(X'WX)^{-1}X') (I - X(X'WX)^{-1}X'W)^T\\
-= \Sigma 
-- \Sigma (X(X'WX)^{-1}X'W)^T
-  - X(X'WX)^{-1}X' 
-   + X(X'WX)^{-1}X') (X(X'WX)^{-1}X'W)^T\\
+= \Sigma - \Sigma (X(X'WX)^{-1}X'W)^T- X(X'WX)^{-1}X' + X(X'WX)^{-1}X') (X(X'WX)^{-1}X'W)^T\\
 = \Sigma - X(X'WX)^{-1}X'\\
 = Q\Sigma\\
 $$
