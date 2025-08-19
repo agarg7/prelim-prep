@@ -15,17 +15,15 @@ $$
 We can simplify $Q\Sigma Q = Q\Sigma$ (what i was missing in my explanation live) using the the fact $\Sigma = W^{-1}$:
 
 $$
-\begin{align*}
-Q\Sigma Q^T &= (I - X(X'WX)^{-1}X'W) \Sigma Q^T\\
-&= (\Sigma - X(X'WX)^{-1}X') Q^T\\
-&= (\Sigma - X(X'WX)^{-1}X') (I - X(X'WX)^{-1}X'W)^T\\
-&= \Sigma 
+Q\Sigma Q^T = (I - X(X'WX)^{-1}X'W) \Sigma Q^T\\
+= (\Sigma - X(X'WX)^{-1}X') Q^T\\
+= (\Sigma - X(X'WX)^{-1}X') (I - X(X'WX)^{-1}X'W)^T\\
+= \Sigma 
 - \Sigma (X(X'WX)^{-1}X'W)^T
   - X(X'WX)^{-1}X' 
    + X(X'WX)^{-1}X') (X(X'WX)^{-1}X'W)^T\\
-&= \Sigma - X(X'WX)^{-1}X'\\
-&= Q\Sigma\\
-\end{align*}
+= \Sigma - X(X'WX)^{-1}X'\\
+= Q\Sigma\\
 $$
 
 This is moslty just expanding and canceling the linear algebra. There is probably a simpler proof of this possible, and the unsimplified form is a valid solution
