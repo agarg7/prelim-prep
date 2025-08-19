@@ -7,7 +7,7 @@ $$
 We can compute the mean and variance of the residual:
 
 $$
-E = (I - X(X'WX)^{-1}X'W)XB = XB -XB  =0 \\
+E = (I - X(X'WX)^{-1}X'W)XB = XB -XB  =0 \ \ \ \ \ 
 V = Q\Sigma Q^T\\
 R \sim M(0, Q\Sigma Q^T)
 $$
@@ -26,8 +26,8 @@ $$
 This is moslty just expanding and canceling the linear algebra. There is probably a simpler proof of this possible, and the unsimplified form is a valid solution
 
 $$
-E[R'\Delta R] = tr(\Delta Q\Sigma Q^T ) = tr(\Delta Q\Sigma )\\
-Var[R'\Delta R] = 2tr((\Delta Q\Sigma Q^T)^2 ) =2tr((\Delta Q\Sigma )^2 ) \\
+E[R'\Delta R] = tr(\Delta Q\Sigma Q^T ) = tr(\Delta Q\Sigma ) \ \ \ \ \ 
+Var[R'\Delta R] = 2tr((\Delta Q\Sigma Q^T)^2 ) =2tr((\Delta Q\Sigma )^2 ) 
 $$
 
 This last step follows from simply plugging into the trace properties in the hint(see solution)
