@@ -1,0 +1,47 @@
+# R script for the analysis included in Does transparency come at a cost? The effect of publishing peer review reports on referee behavior in five scholarly journals
+# Author: Giangiacomo Bravo <giangiacomo.bravo@lnu.se>
+# Date: 2018-09-21
+
+# Extra packages
+library(lmerTest)
+library(ordinal)
+
+
+# Data upload and preparation
+round1 <- read.csv("RevData.csv")
+round1$id <- as.character(round1$id)
+round1$journal <- factor(round1$journal, labels=c("Journal 1", "Journal 2", "Journal 3", "Journal 4", "Journal 5"))
+round1$open.review <- factor(round1$open.review, labels=c("No", "Yes"))
+round1$review.complete <- factor(round1$review.complete, labels=c("No", "Yes"))
+round1$name.published <- factor(round1$name.published, labels=c("No", "Yes"))
+round1$recommendation <- factor(round1$recommendation, labels=c("Reject", "Major revisions", "Minor revisions", "Accept"))
+round1$accepted <- factor(round1$accepted, labels=c("No", "Yes"))
+round1$reviewer.status <- factor(round1$reviewer.status, labels=c("Professor", "Other", "Dr."))
+round1$gender <- factor(round1$gender, labels=c("Female", "Male", "Uncertain"))
+summary(round1)
+
+
+# Acceptance of invitations by referees
+acceptance <- glmer(accepted ~ open.review + reviewer.status + gender + year + open.review:reviewer.status + open.review:gender + (1 | id) + (1 | journal), family=binomial, data=round1)
+summary(acceptance)
+
+
+# Recommendations
+recom <- clmm(recommendation ~ open.review + reviewer.status + gender + year + open.review:reviewer.status + open.review:gender + (1 | id) + (1 | journal), data=round1, subset=review.complete=="Yes")
+summary(recom)
+
+
+# Review time
+time <- lmer(review.time ~ open.review  + reviewer.status + gender + year + open.review:reviewer.status + open.review:gender + (1 | id) + (1 | journal), data=round1, subset=review.complete=="Yes")
+summary(time)
+
+
+# Polarity
+pol <- lmer(polarity ~ open.review + recommendation + log(nchar) + reviewer.status + gender + year + open.review:reviewer.status + open.review:gender + (1 | id) + (1 | journal), data=round1, subset=(review.complete=="Yes" & nchar > 250))
+summary(pol)
+
+
+#Subjectivity
+subj <- lmer(subjectivity ~ open.review + recommendation + log(nchar) + reviewer.status + gender + year + open.review:reviewer.status + open.review:gender + (1 | id) + (1 | journal), data=round1, subset=(review.complete=="Yes" & nchar > 250))
+summary(subj)
+
