@@ -4,7 +4,7 @@ Hi everyone! I will be using this to upload the practice problem sets. Some addi
 
 I highly recommend working through the problems before we go over them together, or at least reading through them and thinking about how you would approach each problem even if you don't write anything out.
 
-The planned schedule is as follows (times in CST):
+The planned schedule is as follows (times in CDT):
 
 | Date Time    | Location                                                     | Problem Set                      |
 | ------------ | ------------------------------------------------------------ | -------------------------------- |
