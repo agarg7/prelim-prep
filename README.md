@@ -1,22 +1,18 @@
 # prelim-prep
 
-Hi everyone! I will be using this to upload the practice problem sets(taken from prior prelims, with some slightly adapted by Rohan Hore to summarize the paper and/or give more potential questions.)
+Hi everyone! I will be using this to upload the practice problem sets. Some additional problem sets that were slightly adapted by Rohan Hore but which I won't go over are also uploaded here. You may find this helpful if you want more practice problems.
 
 I highly recommend working through the problems before we go over them together, or at least reading through them and thinking about how you would approach each problem even if you don't write anything out.
 
-The planned schedule is as follows:
+The planned schedule is as follows (times in CST):
 
 | Date Time    | Location                                                     | Problem Set                      |
 | ------------ | ------------------------------------------------------------ | -------------------------------- |
-| Tu 8/12 3pm  | Jones 226                                                    | Applied Analysis 2 (2020 prelim) |
-| Th 8/14 3pm  | Jones 226                                                    | Applied Analysis 3 (2015 prelim) |
-| Tu 8/19 3pm  | [Zoom](https://uchicago.zoom.us/j/4085130854?pwd=VXJOdFltVnMvWDFPYmczbFUrSlRqdz09) | Applied Analysis 4 (2019 prelim) |
-| Th 8/21 3pm  | [Zoom](https://uchicago.zoom.us/j/4085130854?pwd=VXJOdFltVnMvWDFPYmczbFUrSlRqdz09) | Applied Analysis 5 (2016 prelim) |
-| Tu 8/26 3pm  | [Zoom](https://uchicago.zoom.us/j/4085130854?pwd=VXJOdFltVnMvWDFPYmczbFUrSlRqdz09) | Applied Analysis 6 (2021 prelim) |
-| Th  8/28 3pm | [Zoom](https://uchicago.zoom.us/j/4085130854?pwd=VXJOdFltVnMvWDFPYmczbFUrSlRqdz09) | 2022 prelim                      |
-| Tu  9/2 3pm  | Jones 226                                                    | 2023 prelim                      |
-| Th  9/4 3pm  | Jones 226                                                    | 2024 prelim - **Mock Oral**      |
-| --           | --                                                           | extra (2017 prelim)              |
+| We  8/26 10am | [Zoom](https://uchicago.zoom.us/j/4085130854?pwd=VXJOdFltVnMvWDFPYmczbFUrSlRqdz09) | 2022 prelim     |
+| Fr  8/28 10am | DSI(room TBA), [Zoom](https://uchicago.zoom.us/j/4085130854?pwd=VXJOdFltVnMvWDFPYmczbFUrSlRqdz09) | 2023 prelim     |
+| We  9/2 10am | DSI(room TBA), [Zoom](https://uchicago.zoom.us/j/4085130854?pwd=VXJOdFltVnMvWDFPYmczbFUrSlRqdz09) | 2024 prelim     |
+| Fr  9/4 10am | DSI(room TBA), [Zoom](https://uchicago.zoom.us/j/4085130854?pwd=VXJOdFltVnMvWDFPYmczbFUrSlRqdz09) | 2025 prelim     |
+
 
 A few notes on the format and some general tips(we will talk about this more in the sessions):
 
